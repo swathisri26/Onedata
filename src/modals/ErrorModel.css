@@ -1,0 +1,39 @@
+/* ErrorModal.css */
+.error-modal .modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+  }
+  
+  .error-modal .modal-body {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: red;
+  }
+  
+  .error-modal .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .error-modal button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .error-modal .modal-dialog {
+      margin: 0 auto;
+      width: 90%;
+    }
+  
+    .error-modal button {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,61 @@
+/* ApplicationDetails.css */
+
+.container {
+    margin-top: 30px;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: 700;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      margin-top: 20px;
+      padding: 10px;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h3 {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+  
+    p {
+      font-size: 0.95rem;
+    }
+  
+    button {
+      font-size: 1rem;
+      padding: 12px;
+    }
+  }
+  

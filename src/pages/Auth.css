@@ -1,0 +1,12 @@
+.auth-container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 15px;
+  }
+  
+  .auth-card {
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  

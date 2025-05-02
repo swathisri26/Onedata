@@ -1,0 +1,152 @@
+
+  /* Apply Modal Styles 
+
+.apply-modal-body {
+    padding: 1rem;
+  }
+  
+  .apply-form-group {
+    margin-bottom: 1.2rem;
+  }
+  
+  .apply-form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .apply-form-control,
+  .react-select__control {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+  }
+  
+  .react-select__control {
+    min-height: 40px;
+  }
+  
+  .apply-error {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  .rte-wrapper {
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    padding: 0.5rem;
+    background-color: #fff;
+    min-height: 150px;
+    overflow: auto;
+  }
+  
+  .apply-modal-footer {
+    justify-content: flex-end;
+  }
+  
+  @media (max-width: 576px) {
+    .apply-modal-body {
+      padding: 0.75rem;
+    }
+  
+    .apply-form-control,
+    .react-select__control {
+      font-size: 0.95rem;
+    }
+  }*/
+  /* ApplyModal.css 
+.apply-modal .modal-dialog {
+  max-width: 600px;
+  margin: 1.75rem auto;
+}
+
+.apply-modal .modal-body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.apply-modal .modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apply-modal input,
+.apply-modal select,
+.apply-modal textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.apply-modal button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .apply-modal .modal-dialog {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .apply-modal input,
+  .apply-modal select,
+  .apply-modal textarea {
+    padding: 1rem;
+  }
+}*/
+
+  /* JobListPage.css 
+
+.job-card {
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.job-title {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .job-card .card-body {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 0.75rem;
+  }
+
+  .job-title {
+    font-size: 1rem;
+  }
+
+  .job-card .btn {
+    width: 100%;
+  }
+}*/
+
+/* ApplyModal.css */
+.apply-form {
+  padding: 0.5rem;
+}
+
+.resume-upload {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .apply-form .btn {
+    width: 100%;
+  }
+}
